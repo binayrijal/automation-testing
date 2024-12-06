@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Sign-Up Page</title>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Phone with country code"><br><br>
+
+        <label for="country">Country Code:</label>
+        <select id="country" name="country">
+            <option value="+1">+1 (USA)</option>
+            <option value="+44">+44 (UK)</option>
+            <option value="+91">+91 (India)</option>
+        </select><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="terms">I agree to the terms and conditions</label>
+        <input type="checkbox" id="terms" name="terms"><br><br>
+
+        <button type="submit" id="signup-button">Sign Up</button>
+    </form>
+</body>
+</html>
